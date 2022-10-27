@@ -1,0 +1,64 @@
+.container__cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1240px;
+    justify-content: center;
+}
+.group__cards{
+    width: 350px;
+    background:var(--cor-fundo-card);
+    border-radius: 0.2rem;
+    box-shadow:  5px 10px 30px var(--cor-box);
+    margin:1rem;
+}
+.card__position{
+    transform: translatey(50%);
+}
+.card-info{
+    margin: 2rem;
+}
+.title__card{
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 1.2rem;
+   
+}
+.text__card{
+    color: var(--cinza-claro);
+    font-size: 14px;
+    margin: 1rem 0 1.9rem;
+    line-height: 1.5rem;
+}
+.image__card{
+    margin: 1rem 0 0 75%;
+    
+}
+
+.border__card1{
+    border-top: 5px solid var(--verde-agua);
+}
+.border__card2{
+    border-top: 5px solid var(--vermelho);
+}
+.border__card3{
+    border-top: 5px solid var(--laranja);
+}
+.border__card4{
+    border-top: 5px solid var(--azul);
+}
+
+@media screen and (max-width:429px) {
+    .container__cards{
+        max-width: 90%;
+    }
+    .card__position{
+        transform: translatey(0);
+    }
+}
+
+@media screen and (max-width:1145px) {
+    .card__position{
+        transform: translatey(0);
+    }
+}
