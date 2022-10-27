@@ -37,7 +37,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 5rem 0 2rem 0;
+    margin: 5.5rem 0 2rem 0;
     font-size: 2.2rem;
     color:var(--cinza-escuro);
 }
@@ -51,12 +51,14 @@ body{
 .text{
     text-align: center;
     line-height: 1.5rem;
-}
-.quebra_linha{
-    display: block;
+    margin-bottom: 2rem;
+
 }
 .info__text{
     color: var(--cinza-claro);
+}
+.quebra_linha{
+    display: block;
 }
 
 @media screen and (max-width:429px) {
