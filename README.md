@@ -12,8 +12,8 @@ mestre de seção de recursos de quatro cartões</a>⬅</h1>
 Resumo do que foi utilizado para criação da página web;
 
 - Essa é uma página simples onde foi utilizado flexbox
-- desenvolvido atráves do mobile first
-- utilizado Media queries para a responsividade
+- Desenvolvido atráves do mobile first
+- Utilizado Media queries para a responsividade
 
 ## Layout desktop
 ![página inteira](https://github.com/pe-salviano/mestre-de-secao-de-recursos-de-quatro-cartoes/blob/main/images/img-desktop.png)
